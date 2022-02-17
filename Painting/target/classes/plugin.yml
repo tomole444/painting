@@ -1,0 +1,13 @@
+name: Painting
+version: '1.0-SNAPSHOT'
+main: me.tomle.painting.Painting
+api-version: 1.18
+authors: [ tomole444 ]
+description: Paint the Minecraft world with a paintbrush
+commands:
+  paintbrush:
+    description: Enter this command to obtain the paintbrush
+    usage: /<command>
+  paint:
+    description: Enter a color and a radius. Valid colors are green, yellow, black, blue, white, red, purple
+    usage: /<command> color radius
